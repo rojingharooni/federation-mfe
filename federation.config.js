@@ -6,7 +6,9 @@ module.exports = withNativeFederation({
 
   filename: 'remoteEntry.json',
   exposes: {
-    './Component': './src/app/app.component.ts',
+    //'./Component': './src/app/app.component.ts',
+       './ShareModule': './src/app/share/share.module.ts',
+  //  './Routes': './src/app/app.routes.ts'
   },
 
   shared: {
